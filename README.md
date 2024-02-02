@@ -10,3 +10,6 @@ It consist of 3 parts
 Currently HTML/CSS part has:
 - [Test project] (https://github.com/korniykom/Jonas-Schmedtmann-Courses/tree/main/HTML-and-CSS/01-Test) which shows the ability of HTML by creating basic Web page.
 - 
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
