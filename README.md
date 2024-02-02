@@ -9,7 +9,7 @@ It consist of 3 parts
 
 [Third part](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) is about learning React
 
-## Every part has its own project which described in more detailes inside of corresponding README.md file
+#### Every part has its own project which described in more detailes inside of corresponding README.md file
 Currently HTML/CSS part has:
 
 - [Test project](https://github.com/korniykom/Jonas-Schmedtmann-Courses/tree/main/HTML-and-CSS/01-Test) which shows the ability of HTML by creating basic Web page.
