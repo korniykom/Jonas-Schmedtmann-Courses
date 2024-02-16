@@ -11,6 +11,7 @@
     <link href="./style.css" rel="stylesheet"/> 
   </head>
   <body>
+    <div class="container">
     <header class="main-header">
       <!--inline CSS-->
       <h1 <!--style="color:aqua"-->📘 The Code Magazine</h1>
@@ -22,7 +23,7 @@
     </header>
     <article>
       <header>
-        <h2>The Basic Language of the Web: HTML</h2>
+        <h2 class="post-header">The Basic Language of the Web: HTML</h2>
         <img
           src="./images/laura-jones.jpg"
           alt="lauro-jones"
@@ -31,6 +32,7 @@
         />
         <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         <img
+        class="post-image"
           src="./images/post-img.jpg"
           alt="post image"
           width="500px"
@@ -115,5 +117,7 @@
       </ul>
     </aside>
     <footer><p id="copyright" class="copyright text" >Copyright &copy; 2027 The Code Magazine</p></footer>
-  </body>
+  </div>
+  <button class="like-button">LIKE</button>
+    </body>
 </html>
