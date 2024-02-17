@@ -127,5 +127,6 @@ body {
 }
 .image {
   padding: 0;
+  float: right;
   margin: 0;
 }
