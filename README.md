@@ -1,17 +1,40 @@
 # HTML/CSS/REACT
-This repo is devoted to learning HTML/CSS/JS/REACT
+This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
 
-It consist of 3 parts
+### It consist of 3 parts
 
-[First part](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) is about learning basics of HTML and CSS
+- [ ] [Part One](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) Basics of HTML and CSS
 
-[Second part](https://www.udemy.com/course/the-complete-javascript-course/) is about learning JS
+- [ ] [Part Two](https://www.udemy.com/course/the-complete-javascript-course/) Complete JavaScript Course.
 
-[Third part](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) is about learning React
+- [ ] [Part Three](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) Complete React Guide.
 
-#### Every part has its own project which described in more detailes inside of corresponding README.md file
-Currently HTML/CSS part has:
+[!WARNING]
+Courses above usually costs some money. If you have corporate email of your university (mine is @lll.kpi.ua) you can get access to courses on Udemy for free.
 
-- [Test project](https://github.com/korniykom/Jonas-Schmedtmann-Courses/tree/main/HTML-and-CSS/01-Test) which shows the ability of HTML by creating basic Web page.
-- 
+## Each part has its own project and challenges
+## HTML/CSS 
+## Challenges
 
+- [x]  Challenges from Section 2
+- [x] Challenges from Section 3 
+- [x] Challenges from Section 4
+- [ ] Challenges from Section 5
+- [ ] Challenges from Section 7
+- [ ] Challenges from Section 8
+- [ ] Challenges from Section 9
+## Projects
+
+- [x] **BlogPost Project**
+- [ ] **Omnifood Project**
+## JavaScript
+
+- [ ] -
+- [ ] -
+- [ ] -
+
+## React
+
+- [ ] -
+- [ ] -
+- [ ] -
