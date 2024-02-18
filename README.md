@@ -9,8 +9,9 @@ This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
 
 - [ ] [Part Three](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) Complete React Guide.
 
-[!WARNING]
-Courses above usually costs some money. If you have corporate email of your university (mine is @lll.kpi.ua) you can get access to courses on Udemy for free.
+
+>[!WARNING]
+>Courses above usually costs some money. If you have corporate email of your university (mine is @lll.kpi.ua) you can get access to courses on Udemy for free.
 
 ## Each part has its own project and challenges
 ## HTML/CSS 
