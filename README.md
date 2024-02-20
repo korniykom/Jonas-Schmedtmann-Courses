@@ -44,10 +44,8 @@ This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
   <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/9145d33c-b5cf-4b49-a8c9-d82c7b96ed01" alt="test image" width=400px height=auto>
 </div>
 
-- [ ] Challenges from Section 5
-- [ ] Challenges from Section 7
-- [ ] Challenges from Section 8
-- [ ] Challenges from Section 9
+- [ ] Challenges from Section 6
+
 ## Projects
 
 - [x] **BlogPost Project**
