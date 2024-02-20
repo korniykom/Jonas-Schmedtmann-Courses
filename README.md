@@ -33,12 +33,12 @@ This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
 
 - [x] Challenges from Section 4
   
-  <div>
-    <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/65d15053-46cf-4a47-99f5-c7f7f74bfd74" alt="test image" width=400px height=auto>
-  </div>
-  <div>
-    <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/e37761e3-f792-4630-9cd4-8d802aae177c" alt="test image" width=400px height=auto>
-  </div>
+<div>
+  <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/65d15053-46cf-4a47-99f5-c7f7f74bfd74" alt="test image" width=400px height=auto>
+</div>
+<div>
+  <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/e37761e3-f792-4630-9cd4-8d802aae177c" alt="test image" width=400px height=auto>
+</div>
 
 <div>
   <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/9145d33c-b5cf-4b49-a8c9-d82c7b96ed01" alt="test image" width=400px height=auto>
@@ -49,6 +49,11 @@ This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
 ## Projects
 
 - [x] **BlogPost Project**
+
+<div><img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/7f54495d-2b0f-41b9-9296-9ee928aff2fd" alt="test image" width=400px height=auto></div>
+
+- [ ] **Lisbon Chair Shop**
+
 - [ ] **Omnifood Project**
 ## JavaScript
 
