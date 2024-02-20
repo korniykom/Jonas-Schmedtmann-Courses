@@ -18,8 +18,14 @@ This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
 ## Challenges
 
 - [x]  Challenges from Section 2
-- [x] Challenges from Section 3 
+<img src="https://github.com/korniykom/git_test/assets/81708839/78c24431-93f2-4709-9fd3-be7593746b86" alt="test image" width=400px height=auto>
+- [x] Challenges from Section 3
+<img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/a05bd603-3a69-40af-9124-ad8d78f765f6" alt="test image" width=400px height=auto>
+<img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/5a25de06-634c-4971-8d0c-798ff29370aa" alt="test image" width=400px height=auto>
 - [x] Challenges from Section 4
+  <img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/65d15053-46cf-4a47-99f5-c7f7f74bfd74" alt="test image" width=400px height=auto>
+<img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/e37761e3-f792-4630-9cd4-8d802aae177c" alt="test image" width=400px height=auto>
+<img src="https://github.com/korniykom/WEB-development-courses/assets/81708839/9145d33c-b5cf-4b49-a8c9-d82c7b96ed01" alt="test image" width=400px height=auto>
 - [ ] Challenges from Section 5
 - [ ] Challenges from Section 7
 - [ ] Challenges from Section 8
