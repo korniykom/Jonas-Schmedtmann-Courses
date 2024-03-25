@@ -11,7 +11,12 @@ Bold: 700
 -Line heights:
 Default: 1
 Small: 1.1
+Medium: 1.2
 Big: 1.6
+
+-Letter spacing
+-0.5
+0.75
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -30,6 +35,7 @@ Big: 1.6
 
 --- Border-radius
   Default: 9px
+    medium: 11px 
 
 --- White space
 
@@ -52,64 +58,12 @@ html {
 }
 
 body {
-  font-family: "Inter tight", sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
 }
 
-/**********************/
-/* GENERAL REUSABLE COMPONENTS */
-/**********************/
-.heading-primary {
-  font-size: 5.2rem;
-  line-height: 1.1;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
-.btn:link,
-.btn:visited {
-  background-color: #e67e22;
-  font-size: 2rem;
-  color: #fff;
-  display: inline-block;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  text-decoration: none;
-  font-weight: 500;
-  /*Put the transition on the original state*/
-  transition: all 0.26s;
-}
-.btn:hover,
-.btn:active {
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.11);
-}
-
-.btn--full:link,
-.btn--full:visited {
-  background-color: #e67e22;
-  color: #fff;
-}
-.btn--full:hover,
-.btn--full:active {
-  background-color: #d57420;
-  color: #fff;
-}
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: #fff;
-  color: #555;
-}
-.btn--outline:hover,
-.btn--outline:active {
-  /* background-color: #fff; */
-  color: #333;
-  box-shadow: 0 0 0 3px #fff;
-}
-.margin-right-small {
-  margin-right: 1.6rem !important;
-}
 /**********************/
 /* HEADER */
 /**********************/
@@ -215,11 +169,36 @@ body {
   font-weight: 700;
 }
 /**********************/
+/* FEATURED IN SECTION */
+/**********************/
+.section-featured {
+  padding: 4.8rem 3.2rem 0;
+}
+.heading-featured {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #999;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 45%;
+}
+/**********************/
 /* HOW IT WORKS SECTION */
 /**********************/
 .section-how {
   padding: 9.6rem 0;
-  background-color: orange;
 }
 .container {
   /* 1140px */
@@ -227,18 +206,428 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
-.grid {
+
+.step-img {
+  width: 35%;
+}
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.step-img-box:before {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -2;
+}
+.step-img-box::after {
+  content: "";
+  display: block;
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #fae6d3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -1;
+}
+.step-number {
+  font-size: 8.8rem;
+  font-weight: 600;
+  color: #aaa;
+  margin-bottom: 1.2rem;
+}
+.text-description {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+.step-text-box {
+  align-self: center;
+}
+/**********************/
+/* MEALS SECTION */
+/**********************/
+.section-meals {
+  padding: 9.6rem 0;
+}
+.meal {
+  box-shadow: 0 2rem 4.8rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s;
+  border-radius: 11px;
+  overflow: hidden;
+}
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.175);
+}
+.meal-img {
+  width: 100%;
+}
+.meal-title {
+  font-size: 3.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.meal-attribute span strong {
+  font-weight: 600;
+}
+.meal-icon {
+  color: #e67e22;
+  font-size: 2.4rem;
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+.tag--vegetarian {
+  background-color: #37b24d;
+}
+.tag--vegan {
+  background-color: #a9e34b;
+}
+.tag--paleo {
+  background-color: #99e9f2;
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+.meal-content {
+  padding: 2.4rem 4.8rem 4.8rem 4.8rem;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+/******************
+TESTIMONIAL-SECTION
+******************/
+.section-testimanials {
+  background-color: #fdf2e9;
   display: grid;
-  gap: 9.6rem;
+  grid-template-columns: 4fr 3fr;
+  align-items: center;
 }
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
+.testimonials-container {
+  padding: 9.6rem;
 }
-.grid--3-cols {
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+.galery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.26s;
+}
+.galery {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
 }
-.section-how div div {
-  padding: 100px;
-  font-size: 50px;
-  background-color: #d57420;
+.galery-item img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2rem 4.8rem rgba(0, 0, 0, 0.275);
+}
+/*******************
+Section-pricing
+*******************/
+.sectoin-pricing {
+  padding: 9.6rem 0;
+}
+.plan-name {
+  color: #e67e22;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 0.4rem;
+}
+.plan-sing-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+.pricing-plan {
+  border-radius: 11px;
+  padding: 4.8rem;
+
+  width: 75%;
+}
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fae6d3;
+  padding: 4.6rem;
+}
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan--complete:after {
+  content: "best value";
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  top: 6%;
+  right: -12%;
+  font-weight: 700;
+  background-color: #e67e22;
+  padding: 0.8rem 4.8rem;
+  color: #fdf2e9;
+  transform: rotate(45deg);
+}
+.subheading--pricing {
+  margin-top: 4.8rem;
+}
+.feature-icon {
+  color: #e67e22;
+  background-color: #fdf2e9;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+/********************
+CTA section
+*********************/
+.cta-section {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: linear-gradient(to right bottom, #e67e22, #e67e32);
+  box-shadow: 0 2rem 4.8rem rgba(0, 0, 0, 0.275);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(28, 80%, 52%, 0.3),
+      rgba(230, 125, 50, 0.3)
+    ),
+    url(../content/img/eating.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.cta-text-box {
+  color: #45260a;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.175);
+  color: inherit;
+}
+.cta-form input::placeholder {
+  color: #aaa;
+}
+.cta-form select {
+}
+.cta-form button {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.cta-form button:hover {
+  background-color: white;
+  color: #555;
+}
+/******************************/
+/*Footer*/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+.footer-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.26s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  margin: 2.4rem 0;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.footer-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.copyright {
+  color: #767676;
+  font-size: 1.4rem;
+  margin-top: auto;
+}
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.contacts {
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.6;
+}
+.address {
+  margin-bottom: 2.4rem;
+}
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
