@@ -97,15 +97,16 @@ BELOW 900 (tablet)
   /**********************/
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.875);
+    background-color: rgba(255, 255, 255, 0.4);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-
+    backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
     justify-content: center;
