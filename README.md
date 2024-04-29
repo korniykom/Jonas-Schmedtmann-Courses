@@ -1,5 +1,6 @@
 # HTML/CSS/REACT
-This ***repository*** is about learning *HTML*/*CSS*/*JS*/**REACT**
+>[!IMPORTANT]
+> - [ ]  End goad to buile Portfolio Site
 
 ### It consist of 3 parts
 
