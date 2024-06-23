@@ -1,4 +1,4 @@
-# HTML/CSS/REACT
+# HTML/CSS/JavaScript/REACT
 >[!IMPORTANT]
 > - [ ]  End goad to buile Portfolio Site
 
@@ -28,6 +28,17 @@
   </details>
 
 - [ ] [Part Three](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) Complete React Guide.
+  <details>
+    <summary><b>Main projects of Part Three</b></summary>
+  
+    # FAST REACT PIZZA CO
+    ![Pizza](https://github.com/korniykom/Road-To-React/assets/81708839/5e2ccb54-dc96-4274-9cc3-0caf6cc4d922)
+
+  
+  </details>
+
+
+
 
 
 >[!WARNING]
