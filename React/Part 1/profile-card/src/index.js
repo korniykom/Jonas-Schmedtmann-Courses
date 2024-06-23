@@ -2,6 +2,24 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
+const skills = [
+  {
+    skill: "HTML",
+    level: "intermediate",
+    color: "red",
+  },
+  {
+    skill: "JavaScript",
+    level: "intermediate",
+    color: "yellow",
+  },
+  {
+    skill: "CSS",
+    level: "beginer",
+    color: "blue",
+  },
+];
+
 function Image() {
   return <img className="profile-image" src="./image.png" alt="img" />;
 }
@@ -14,17 +32,24 @@ function AboutSection() {
         Front-end web-developer. Learning React. Already learned HTML, CSS,
         JavaScript.
       </p>
-      <Badge color="red" name="HTML" />
-      <Badge color="blue" name="CSS" />
-      <Badge color="yellow" name="JavaScript" />
+      {skills.map((badge) => {
+        return (
+          <Badge color={badge.color} name={badge.skill} level={badge.level} />
+        );
+      })}
     </section>
   );
 }
 
-function Badge(props) {
+function Badge({ color, name, level }) {
   return (
-    <div className="badge" style={{ background: props.color }}>
-      {props.name}{" "}
+    <div className="badge" style={{ background: color }}>
+      <span>
+        {" "}
+        {`${name} ${
+          level === "intermediate" ? "👍" : level === "beginer" ? "😏 " : ""
+        }`}
+      </span>
     </div>
   );
 }
