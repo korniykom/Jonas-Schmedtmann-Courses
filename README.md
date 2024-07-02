@@ -1,6 +1,5 @@
-# HTML/CSS/JavaScript/REACT
->[!IMPORTANT]
-> - [ ]  End goad to buile Portfolio Site
+# HTML/CSS/JavaScript/SCSS
+
 
 ### It consist of 3 parts
 
@@ -27,14 +26,9 @@
   
   </details>
 
-- [ ] [Part Three](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) Complete React Guide.
+- [ ] [Part Three](https://www.udemy.com/course/advanced-css-and-sass) Advanced CSS and Sass
   <details>
-    <summary><b>Main projects of Part Three</b></summary>
-  
-    # FAST REACT PIZZA CO
-    ![Pizza](https://github.com/korniykom/Road-To-React/assets/81708839/5e2ccb54-dc96-4274-9cc3-0caf6cc4d922)
-
-  
+   <summary>Advanced CSS projects</summary>
   </details>
 
 
