@@ -102,6 +102,15 @@ body {
   padding: 16rem 0;
   margin-top: -20vh; }
 
+.section-features {
+  margin-top: -8rem;
+  padding: 12.5rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg); }
+  .section-features > * {
+    transform: skewY(7deg); }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -190,6 +199,23 @@ body {
       z-index: 2; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  padding: 1.6rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.16s; }
+  .feature-box__icon {
+    font-size: 3.75rem;
+    margin-bottom: 0.3rem;
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    background-clip: text;
+    color: transparent; }
+  .feature-box:hover {
+    transform: translateY(-1rem) scale(1.03); }
 
 .row {
   max-width: 72rem;
